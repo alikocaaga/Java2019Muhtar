@@ -19,7 +19,6 @@ public class IterableInterface {
 				if(list.get(i) == 1) {
 					list.remove(i);
 				}
-				
 			}
 			
 			System.out.println( list );
@@ -112,7 +111,7 @@ public class IterableInterface {
 		
 		for( Iterator<String> itr = namelist.iterator(); itr.hasNext();  ) {
 				String str = itr.next();
-				if(str.equals("Safwan") && str.equals("Erhan") ) {
+				if(str.equals("Safwan") || str.equals("Erhan") ) {
 					itr.remove();
 				}
 		}
