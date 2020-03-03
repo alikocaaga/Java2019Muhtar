@@ -13,8 +13,7 @@ public class StringMethods2 {
 			String str1 = "Java is Fun Programming Language";
 					str1 = str1.replace('a', '1');
 					System.out.println( str1 );
-
-
+					
 		
 		/*
 		 replace(old str, new str):
