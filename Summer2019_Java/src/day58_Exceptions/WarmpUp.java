@@ -37,6 +37,7 @@ public class WarmpUp {
 			FileInputStream file = new FileInputStream(path);
 			property.load( file);
 		}catch (IOException e) {
+
 			
 		}
 			
