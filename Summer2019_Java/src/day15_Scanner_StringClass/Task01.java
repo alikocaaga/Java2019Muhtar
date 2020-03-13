@@ -19,6 +19,33 @@ public class Task01 {
 					int n2 = input.nextInt();
 					
 		System.out.println("The sum is: " + (n1+n2) );
+
+
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter first number");
+		int m1 = scan.nextInt();
+
+		System.out.println("Enter second number");
+		int m2 = scan.nextInt();
+
+		System.out.println(m1*m2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		
 	
 		

@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="9">
-      <module name="Summer2019_Java" target="1.8" />
+      <module name="Summer2019_Java" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
