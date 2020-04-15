@@ -20,7 +20,7 @@ public class ForLoop {
 		 	
 		 */
 		
-		for(double i = 1; i <= 10 ; i += 2 ) {
+		for(double i = 1; i <= 5 ; i += 1 ) {
 			System.out.println("Hello World "+i);
 		}
 		
