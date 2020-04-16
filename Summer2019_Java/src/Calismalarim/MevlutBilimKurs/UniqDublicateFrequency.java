@@ -8,7 +8,7 @@ public class UniqDublicateFrequency {
     public static void main(String[] args) {
 
         String str = "AAABBBCCCDEEFFGGGAA";
-        String[] string = str.replaceAll("\\s+", "").split("");
+     /*   String[] string = str.replaceAll("\\s+", "").split("");
         Map<String, Integer> mapping = new HashMap<>();
 
         for (String s : string) {
@@ -35,5 +35,9 @@ public class UniqDublicateFrequency {
             frequency += map.getKey() + map.getValue();
         }
         System.out.println(frequency);
+
+
+      */
+
     }
 }

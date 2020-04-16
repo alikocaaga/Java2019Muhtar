@@ -20,12 +20,18 @@ public class RemoveDublicate {
             }
         }
 
+/*
+
         String frequ=mapping.entrySet().stream()
                 .map(x->x.getKey()+x.getValue())
                 .collect(Collectors.joining());
-        System.out.println(frequ);
+        System.out.println("Lambda ile = "+frequ);
 
-        String removeDup="";
+
+
+ */
+
+       String removeDup="";
         System.out.println(mapping);
         for(Map.Entry<String, Integer> map:mapping.entrySet()) {
 
@@ -33,6 +39,8 @@ public class RemoveDublicate {
 
         }
         System.out.println(removeDup);
+
+
 
     }
 }

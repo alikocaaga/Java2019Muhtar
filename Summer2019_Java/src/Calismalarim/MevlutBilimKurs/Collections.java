@@ -1,18 +1,15 @@
 package Calismalarim.MevlutBilimKurs;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Collections {
 
-            public static void main(String[] args) {
-                String[] names = {"Ali Kocaaga", "Ali Tokmak", "Mevlut Bilim", "Ali Kocaaga", "Ali Tokmak", "Mevlut Bilim"};
+    public static void main(String[] args) {
+  /*      String[] names = {"Ali Kocaaga", "Ali Tokmak", "Mevlut Bilim", "Ali Kocaaga", "Ali Tokmak", "Mevlut Bilim"};
 
-                //System.out.println(Arrays.asList(names));
+        System.out.println(Arrays.asList(names));
 
-                for (String str : names) {
+               for (String str : names) {
                     System.out.println("Adi Soyadi: " + str);
                 }
 
@@ -22,27 +19,42 @@ public class Collections {
                 for (int str : numaralar) {
                     System.out.println("Numaralar: " + str);
                 }
+*/
+        List<Integer> list = new ArrayList<>();
 
-                List<Integer> list = new ArrayList<>();
+        list.add(23);
+        list.add(46);
+        list.add(45);
 
-                list.add(23);
+        System.out.println(list);
 
-                List<String> isim = new ArrayList<>();
-                isim.add("Ali");
-                Map<String, Integer> isimNo = new HashMap<>();
-                isimNo.put("Alim", 100);
-                isimNo.put("Ali", 200);
-                isimNo.put("Mevlut", 300);
+        List<String> isim = new ArrayList<>();
+        isim.add("Ali");
+        isim.add("Alim");
+        isim.add("Aliye");
+        isim.add("Alican");
+        System.out.println(isim);
 
-                for (Map.Entry<String, Integer> map : isimNo.entrySet()) {
-                    System.out.println("Isim :" + map.getKey() + " Numara: " + map.getValue());
-                }
+        Map<String, Integer> isimNo = new HashMap<>(); //double olanlari gostermiyor
+        isimNo.put("Alim", 100);
+        isimNo.put("Ali", 200);
+        isimNo.put("Mevlut", 300);
+        isimNo.put("Ali", 500);
+        System.out.println(isimNo.size());
+        System.out.println(isimNo.isEmpty());
 
-                //isimNo.entrySet().forEach(x->System.out.println("Isim :"+x.getKey()+",Numara :"+x.getValue()));
 
-
-            }
+        for (Map.Entry<String, Integer> map : isimNo.entrySet()) {
+            System.out.println("Isim :" + map.getKey() + " Numara: " + map.getValue());
         }
+
+        //isimNo.entrySet().forEach(x->System.out.println("Isim :"+x.getKey()+",Numara :"+x.getValue()));
+
+
+    }
+
+
+}
 
 
 
